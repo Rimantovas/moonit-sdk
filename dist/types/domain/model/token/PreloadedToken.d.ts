@@ -1,3 +1,4 @@
+import { CurveAccount } from '../curve';
 import { AbstractCurveAdapter } from '../curve/AbstractCurveAdapter';
 import { Moonit } from '../moonit';
 import { BaseToken } from './BaseToken';
@@ -16,6 +17,7 @@ export declare class PreloadedToken extends BaseToken implements ITokenPreloaded
     protected _curveAdapter: AbstractCurveAdapter;
     constructor(options: InitTokenOptions, curveAdapter: AbstractCurveAdapter);
     static init(options: InitTokenOptions): Promise<PreloadedToken>;
+    static initSync(options: InitTokenOptions, curveAccount: CurveAccount): PreloadedToken;
     get curveAdapterSync(): AbstractCurveAdapter;
     getCollateralAmountByTokensSync(options: GetCollateralAmountSyncOptions): bigint;
     getTokenAmountByCollateralSync(options: GetTokenAmountSyncOptions): bigint;

@@ -21,6 +21,10 @@ class PreloadedToken extends BaseToken_1.BaseToken {
         const curveAdapter = (0, curve_1.getCurveAdapter)(curveAccount, options.moonit.provider, options.mintAddress);
         return new PreloadedToken(options, curveAdapter);
     }
+    static initSync(options, curveAccount) {
+        const curveAdapter = (0, curve_1.getCurveAdapter)(curveAccount, options.moonit.provider, options.mintAddress);
+        return new PreloadedToken(options, curveAdapter);
+    }
     get curveAdapterSync() {
         return this._curveAdapter;
     }

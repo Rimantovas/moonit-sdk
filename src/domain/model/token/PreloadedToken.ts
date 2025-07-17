@@ -1,5 +1,5 @@
 import { getCurveAccount } from '../../../solana';
-import { getCurveAdapter } from '../curve';
+import { CurveAccount, getCurveAdapter } from '../curve';
 import { AbstractCurveAdapter } from '../curve/AbstractCurveAdapter';
 import { Moonit } from '../moonit';
 import { BaseToken } from './BaseToken';
@@ -38,6 +38,18 @@ export class PreloadedToken
       options.moonit.provider,
       options.mintAddress,
     );
+    const curveAdapter = getCurveAdapter(
+      curveAccount,
+      options.moonit.provider,
+      options.mintAddress,
+    );
+    return new PreloadedToken(options, curveAdapter);
+  }
+
+  static initSync(
+    options: InitTokenOptions,
+    curveAccount: CurveAccount,
+  ): PreloadedToken {
     const curveAdapter = getCurveAdapter(
       curveAccount,
       options.moonit.provider,
