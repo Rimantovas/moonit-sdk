@@ -1,12 +1,12 @@
-import { InitTokenOptions } from './InitTokenOptions';
-import { Moonit } from '../moonit';
 import { getCurveAccount } from '../../../solana';
 import { getCurveAdapter } from '../curve';
 import { AbstractCurveAdapter } from '../curve/AbstractCurveAdapter';
+import { Moonit } from '../moonit';
+import { BaseToken } from './BaseToken';
 import { GetCollateralAmountSyncOptions } from './GetCollateralAmountSyncOptions';
 import { GetTokenAmountSyncOptions } from './GetTokenAmountSyncOptions';
+import { InitTokenOptions } from './InitTokenOptions';
 import { ITokenPreloadedOperations } from './ITokenPreloadedOperations';
-import { BaseToken } from './BaseToken';
 
 /**
  * PreloadedToken extends BaseToken class in its functionality
@@ -23,7 +23,7 @@ export class PreloadedToken
 
   protected _curveAdapter: AbstractCurveAdapter;
 
-  private constructor(
+  public constructor(
     options: InitTokenOptions,
     curveAdapter: AbstractCurveAdapter,
   ) {
