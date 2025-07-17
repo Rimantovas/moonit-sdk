@@ -1,0 +1,1 @@
+{"version":3,"file":"InitTokenOptions.d.ts","sourceRoot":"","sources":["../../../../../src/domain/model/token/InitTokenOptions.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,2BAA2B,CAAC;AACtD,OAAO,EAAE,MAAM,EAAE,MAAM,WAAW,CAAC;AAEnC,MAAM,WAAW,gBAAgB;IAC/B,WAAW,EAAE,MAAM,CAAC;IACpB,MAAM,EAAE,MAAM,CAAC;IACf,SAAS,CAAC,EAAE,SAAS,CAAC;CACvB"}

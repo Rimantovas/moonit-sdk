@@ -1,0 +1,1 @@
+{"version":3,"file":"GetCollateralAmountOptions.d.ts","sourceRoot":"","sources":["../../../../../src/domain/model/token/GetCollateralAmountOptions.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,0BAA0B;IACzC,WAAW,EAAE,MAAM,CAAC;IACpB,cAAc,EAAE,KAAK,GAAG,MAAM,CAAC;IAC/B,aAAa,CAAC,EAAE,MAAM,CAAC;CACxB"}

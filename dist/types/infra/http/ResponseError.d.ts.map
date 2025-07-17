@@ -1,0 +1,1 @@
+{"version":3,"file":"ResponseError.d.ts","sourceRoot":"","sources":["../../../../src/infra/http/ResponseError.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,OAAO,CAAC;AAEtC,qBAAa,aAAc,SAAQ,KAAK;IAC/B,QAAQ,EAAE,aAAa,CAAC;IAExB,OAAO,EAAE,MAAM,CAAC;gBAEX,QAAQ,EAAE,aAAa,EAAE,OAAO,EAAE,MAAM;CAMrD"}

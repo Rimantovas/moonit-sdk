@@ -1,0 +1,1 @@
+{"version":3,"file":"GetTokenAmountSyncOptions.d.ts","sourceRoot":"","sources":["../../../../../src/domain/model/token/GetTokenAmountSyncOptions.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,qBAAqB,EAAE,MAAM,yBAAyB,CAAC;AAEhE,MAAM,WAAW,yBAA0B,SAAQ,qBAAqB;IACtE,aAAa,EAAE,MAAM,CAAC;CACvB"}
